@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MyTheme"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#0C5AA6"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/right"
+        style="@style/MyTheme"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="@string/right"/>
+
+    <Button
+        android:id="@+id/left"
+        style="@style/MyTheme"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="@string/left" />
+
+    <Button
+        android:id="@+id/back"
+        style="@style/MyTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/left"
+        android:layout_toLeftOf="@+id/right"
+        android:layout_toRightOf="@+id/left"
+        android:text="@string/backward"/>
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/MyTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/terminate"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/front"
+        style="@style/MyTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/back"
+        android:layout_alignTop="@+id/right"
+        android:layout_toRightOf="@+id/left"
+        android:text="@string/forward"  />
+    <TextView
+        android:id="@+id/connected_device"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:text="@string/stav"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="20dp"
+        android:text="@string/device"
+        android:textSize="18sp" />
+
+    <Switch
+        android:id="@+id/lights"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/connected_device"
+        android:layout_marginTop="18dp"
+        android:text="@string/lights" />
+
+    <ImageButton
+        android:id="@+id/trojuholnik"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp"
+        android:layout_toLeftOf="@+id/right"
+        android:src="@drawable/triangel" />
+
+</RelativeLayout>

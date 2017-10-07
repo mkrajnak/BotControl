@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#0C5AA6">
+
+    <ToggleButton
+        android:id="@+id/sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sensor_msg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textOff="@string/sensor_controller_off"
+        android:textOn="@string/sensor_controller_on" />
+
+    <TextView
+        android:id="@+id/sensor_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/sensor_msg"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/meraj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sensor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="116dp"
+        android:text="@string/meraj" />
+    
+</RelativeLayout>

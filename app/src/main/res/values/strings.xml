@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TankControl</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="open_drawer">Open</string>
+	<string name="close_drawer">close</string>
+	<string name="year">©2014</string>
+
+<!--     Controls  -->
+	<string name="lights">Toggle Lights</string>
+	<string name="meraj">Measure distance</string>
+	<string name="lights_delay">Light delay</string>
+	<string name="speed">Speed</string>
+    <string name="device_selection">Click to get list of devices!</string>
+    <string name="forward">Forward</string>
+    <string name="backward">Backward</string>
+    <string name="right">Right</string>
+    <string name="left">Left</string>
+    <string name="terminate">Terminate connection</string>  
+    <string name="stav">"Connected to:"</string>
+    <string name="device">"connection innactive"</string>
+    <string name="sensor_msg">"Switch control to sensor"</string>
+    <string name="sensor_controller_on">"Turn sensor off"</string>
+    <string name="sensor_controller_off">"Turn sensor on"</string>
+    <string name="distance">"Distance"</string>
+    
+<!--     Toast messages   -->
+    <string name="toast_bt_support">Your device does not support bluetooth</string>
+	<string name="toast_bt_enabled">bluetooth was already enabled!</string>
+	<string name="toast_connection_terminated">Connection terminated!</string>
+	<string name="toast_connection_initiate">Connectin to:</string>
+	<string name="toast_connection_success">Connection established!</string>
+	<string name="toast_connection_fail">Connection fail</string>
+	<string name="toast_not_connected">Controls disabled, Establish connection first!</string>
+<!-- 	About Fragment  -->
+
+	<string name="author">Martin Krajnak</string>
+	<string name="version">v1.2</string>
+     
+<!-- 	Filling String Arrays -->
+
+	<string-array name="side_menu_items" >
+	    <item >Connect</item>
+	    <item >Control</item>
+	    <item >Sensor</item>
+	    <item >Sensor</item>
+	    <item >About</item>
+	</string-array>
+	
+	<string-array name="fragment_sources" >
+	    <item >com.bot.control.FragmentConnect</item>
+	    <item >com.bot.control.FragmentControl</item>
+	    <item >com.bot.control.FragmentSensor</item>
+	    <item >com.bot.control.FragmentSettings</item>
+	    <item >com.bot.control.FragmentAbout</item>
+	</string-array>
+</resources>

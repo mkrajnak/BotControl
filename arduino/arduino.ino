@@ -1,9 +1,10 @@
-#include <AFasMotor.h>
+#include <AFMotor.h>
+
 AF_DCMotor motor(3, MOTOR12_8KHZ);
 AF_DCMotor motor1(1, MOTOR12_8KHZ);
 int data;
-char set [3];
-int blik =200;
+char set[3];
+int blik = 200;
 int echoPin = 33;                               
 int initPin = 32;                                
 unsigned long pulseTime = 0;                   

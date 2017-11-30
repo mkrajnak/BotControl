@@ -24,6 +24,12 @@ unsigned long pulseTime = 0;                    // stores the pulse in Micro Sec
 unsigned long distance = 0;                     // variable for storing the distance (cm)
 
 void setup() {
+  // Power for accelerometer
+  pinMode(24,OUTPUT);
+  pinMode(25,OUTPUT); 
+  digitalWrite(24,1);
+  digitalWrite(25,0); 
+  
   Serial.begin(9600);
   Serial1.begin(9600);
   pinMode(echoPin, INPUT);

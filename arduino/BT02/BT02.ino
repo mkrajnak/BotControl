@@ -81,7 +81,7 @@ void automode(){
 
 int meraj(){
     digitalWrite(initPin, HIGH);                    // send 10 microsecond pulse
-    delayMicroseconds(10);                  // wait 10 microseconds before turning off
+    delayMicroseconds(10);                          // wait 10 microseconds before turning off
     digitalWrite(initPin, LOW);                     // stop sending the pulse
     pulseTime = pulseIn(echoPin, HIGH);             // Look for a return pulse, it should be high as the pulse goes low-high-low
     distance = pulseTime/58;

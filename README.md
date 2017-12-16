@@ -14,6 +14,6 @@ Android app designed to control model of the vehicle build on Arduino Platform
 ## Android app:
 <div>
 <img width="33%" src ="https://github.com/mkrajnak/TankControl/blob/master/Screenshot_2014-05-05-21-49-12.png?raw=true" />
-<img width="33%" src ="https://github.com/mkrajnak/TankControl/blob/master/Screenshot_2014-05-05-21-54-07.png?raw=true" />
 <img width="33%" src ="https://github.com/mkrajnak/TankControl/blob/master/drawer.png?raw=true" />
+<img width="33%" src ="https://github.com/mkrajnak/TankControl/blob/master/Screenshot_2014-05-05-21-54-07.png?raw=true" />
 </div>

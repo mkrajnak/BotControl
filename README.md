@@ -3,7 +3,7 @@ Android app designed to control model of the vehicle build on Arduino Platform
 ## Hardware side:
  * Arduino mega 2560
  * Bluetooth module - communication channel for app
- * Adafruit motor control shield - save power control for DC motors
+ * Adafruit motor control shield - safe power control for DC motors
  * SPF ultrasonic sensor for measuring distance to the nearest object
  
 <p align="center">
